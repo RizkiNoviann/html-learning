@@ -1,0 +1,107 @@
+video 3-5
+
+<h1> heading
+<b> untuk menebalkan huruf
+<i> memiringkan huruf
+<u> garis bawah huruf
+<p> membuat paragraf, membuat banyak spasi pada tag ini akan tetap terbaca 1 spasi saja
+
+superscript <sup> subscript <sub>
+<sup> huruf atas
+<sub> huruf bawah
+
+video 6
+Line Break dan Horizontal Rule
+<br/> enter tanpa spasi beda dengan <p> yang enter ada spasi
+<hr/> membuat garis dan spasi 
+
+video 7
+Strong, Emphasis, Blockquote dan Quote
+<strong> mirip seperti bold lebih berguna dipakai di css
+<em> italic yg lebih berguna di css
+<blockquote> membuat paragraf (tulisan yang maju)
+<q> memberikan petik
+
+video 8
+Extra tag
+<abbr> singkatan, jika di hover akan muncul kata lain.gunakan atribut title
+<acronym> sama aja
+<cite> citation, memberikan sumber kutipan
+<dfn> jadi garis miring (definition)
+<del> mencoreng kata
+<ins> membenarkan del dan memberikan underline
+
+video 10
+list
+<ol> ordered list, list ngurut ada angkanya, menggunakan <li>
+<ul> unordered list, list gk ada angkanya, menggunakan <li>
+<dl> definition list, tidak ada angkanya biasanya untuk penjelasan dari suatu judul
+urutan nya : <dl>
+		<dt>
+		      <dd>
+
+video 11
+link
+
+menggunakan <a href>
+apabila diluar folder atau di folder yang berdeda tambahkan nama folder nya (nama folder/aaa.html)
+apabila didalam folder atau di folder yang sama langsung masukan nama file nya (aaa.html)
+apabila link ke email, gunakan "mailto:" (mailto:aaa@gmail.com)
+apabila ingin memanggil sesuatu yg ada di page yg sama tambahkan id
+	contoh
+	<p id = "aaa">aaa</p>
+	cara manggilnya
+	<a href="(namafolder).html#aaa">aaa</a>
+apabila page yg beda folder ingin ke folder yg lain gunakan (../aa.html)
+
+video 12
+HTML Attributes
+
+video 13
+table
+<table> memilliki 3 bagian
+<tr> untuk baris nya
+<td> untuk data nya
+<th> untuk header
+Atribut yang ada dijelaskan
+atribut border untuk menambahkan garis (border="1")
+atribut colspan untuk menggabungkan baris (colspan="1")
+atribut rowspan untuk menggabungkan kolom (rowspan="1")
+
+video 14
+form
+input type:
+text(teks biasa)
+password(bintang)
+radio(bulat pilih salah satu)
+chechbox(kotak multiple choise)
+file(ngirim file)
+button(tombol)
+
+untuk radio samakan atribut name agar pilih salah satu saja
+label untuk menampilkan teks nya
+value untuk mengisi isi nya tanpa diisi user
+
+video 16
+image
+sebelum ngoding, biasanya pada folder ada folder lagi 
+bernama "img" untuk menaruh file gambar nya
+
+tag <img> memiliki beberapa atribut
+src untuk mengambil file gambar
+height mengatur tinggi
+widt mengatur lebar
+alt untuk alternatif jika gambar tidak muncul (berupa text)
+title saat hover akan muncul text
+align untuk rata kanan, kiri, atas, bawah, dan tengah
+
+gunakan widt 100% agar besar gambar mengikuti browser
+
+video 17
+video
+
+gunakan tag <video> masukan src, sama seperti image
+masukan "controls" agar video bisa di play
+poster untuk thumbnail
+autoplay video akan otomatis mulai
+preload
